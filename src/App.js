@@ -25,7 +25,7 @@ return (
                     {/* <Route exact path="/" component={}/> */}
                 </Switch>
             </Router>
-            <h1>hello world from work diary {':)'}</h1>
+            <h1 className=" mt-5 text-center">hello world from work diary {':)'}</h1>
         </div>
     )
 }
