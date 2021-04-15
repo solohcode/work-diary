@@ -41,7 +41,8 @@ return (
 
                         <Navbar/>
                         <Switch>
-                            <Route exact path="/" component={LandingPage}/>
+                            <Route exact path="/" component={Login} />
+                            {/* <Route exact path="/" component={LandingPage}/> */}
 
                             {/* authentication pages with prefix "/auth"  */}
                             <Route path="/auth/login" component={Login} />
