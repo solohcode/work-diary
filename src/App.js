@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router,Switch,Route } from 'react-router-dom'
+// import { Router,Switch,Route } from 'react-router-dom'
 import createBrowserHistory from 'history/createBrowserHistory'
 import { Layout } from 'antd'
 
@@ -13,16 +13,16 @@ import './Styles/Components/components.css'
 
 
 
-// // components imports
-import Navbar from './Components/Partial/Header/Navbar'
+// // // components imports
+// import Navbar from './Components/Partial/Header/Navbar'
 
 
-//  pages imports
-import LandingPage from './Pages/Landing/LandingPage'
-import Login from './Pages/Auth/Login'
-import Register from './Pages/Auth/Register'
-import Verify from './Pages/Auth/Verify'
-import Forgot from './Pages/Auth/Forgot'
+// //  pages imports
+// import LandingPage from './Pages/Landing/LandingPage'
+// import Login from './Pages/Auth/Login'
+// import Register from './Pages/Auth/Register'
+// import Verify from './Pages/Auth/Verify'
+// import Forgot from './Pages/Auth/Forgot'
 
 
 
@@ -37,24 +37,26 @@ return (
             <Layout>
                 <Content className="site-layout">
 
-                    <Router history={history}>
+                    {/* <Router history={history}>
 
                         <Navbar/>
                         <Switch>
                             <Route exact path="/" component={Login} />
-                            {/* <Route exact path="/" component={LandingPage}/> */}
+                             <Route exact path="/" component={LandingPage}/> 
 
-                            {/* authentication pages with prefix "/auth"  */}
+                            authentication pages with prefix "/auth" 
                             <Route path="/auth/login" component={Login} />
                             <Route path="/auth/register" component={Register} />
                             <Route path="/auth/verify" component={Verify} />
                             <Route path="/auth/forgot" component={Forgot} />
 
-                            {/* users experience pages with the prefix "/user"  */}
+                            users experience pages with the prefix "/user" 
 
                         </Switch>
 
-                    </Router>
+                    </Router> */}
+
+                    <h1>hello from work-diary</h1>
 
                     
                 </Content>
