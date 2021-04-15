@@ -1,0 +1,73 @@
+/* additional spare stylings  */
+.mt-big{
+    margin-top: 50px;
+}
+.font-light{
+    font-weight: lighter;
+}
+.font-normal{
+    font-weight: normal;
+}
+.text-gray{
+    color: rgb(196, 196, 196);
+}
+.text-silver{
+    color: rgb(82, 81, 81);
+}
+.text-blue{
+    color: rgba(34, 128, 252, 0.781);
+}
+.size-big{
+    font-size: 30px;
+}
+.bg-gradient-blue{
+    background: linear-gradient(rgba(13, 39, 73, 0.781),rgba(1, 38, 87, 0.78));
+}
+
+
+/* Navbar component styling  */
+.wd-navbar .navbar-brand span{
+    color: gray;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+/* Landing page Styling  */
+.wd-top{
+    width: 100%;
+    height: 100%; 
+}
+.wd-top-side{
+    background:  linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../../Images/banner/wallpaper5.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.wd-landing-banner{
+    width: 100%;
+}
+.wd-landing-banner .wd-main-banner{
+    width: 100%;
+
+}
+.wd-landing-banner img{
+    margin-top: 10px;
+}
+.wd-landing-about{
+    width: 100%;
+    height: 100%;
+}
+.wd-banner-placard{
+    width: 100%;
+    min-height: 500px;
+    background-position: fixed;
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../Images/banner/wallpaper.jpg) no-repeat fixed;
+    background-size: 100%;
+}
+.wd-landing-tell{
+    width: 100%;
+    min-height: 600px;
+    background: linear-gradient(rgba(10, 14, 31, 0.9),rgba(9, 14, 34, 0.9)),url(../../Images/banner/wallpaper2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
