@@ -11,7 +11,6 @@ import w4 from '../../../Images/banner/w4.png'
 import w5 from '../../../Images/banner/w5.png'
 import logo from '../../../Images/logos/icon01.png'
 import side from '../../../Images/banner/w6.png'
-import Banner from './Banner';
 
 
 
