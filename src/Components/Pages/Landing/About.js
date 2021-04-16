@@ -1,16 +1,26 @@
 import React, { Component } from 'react'
 
+import w1 from '../../../Images/banner/w3.png'
+
+
 export class About extends Component {
     render() {
         return (
             <div>
                 <div class="wd-landing-about">
                         <div class="wd-about-note .bg-light.bg-gradient">
-                            <div class="mt-5 text-center">
+                            <div class="my-5 text-center">
                                 <span class="size-big">Everything you need to create</span>
                                 <p> a work dashboard for all your portfolios</p>
 
-                                <div class="container mt-3">
+                                    <div className="w-100 h-25 text-center mx-auto d-none d-md-block" >
+                                        <div class=" animate-opacity">
+                                                <img src={w1} alt="my work dashboard" width="100%" height="500px" />
+                                                <span className="text-silver fst-italic"><i className="fas fa-stream"/> my work dashboard</span>
+                                        </div>
+                                    </div>
+                                <div class="container my-3">
+                                    
                                     <div class="row">
                                         <div class="col-sm-3">
                                             <div class="wd-about-note-head">

@@ -4,10 +4,10 @@ import { Image } from 'antd'
 
 import logo from '../../../Images/logos/black.png'
 
-import b1 from '../../../Images/banner/p1.jpg'
-import b2 from '../../../Images/banner/p2.jpg'
-import b3 from '../../../Images/banner/p3.jpg'
-import b4 from '../../../Images/banner/p4.jpg'
+// import b1 from '../../../Images/banner/p1.jpg'
+// import b2 from '../../../Images/banner/p2.jpg'
+// import b3 from '../../../Images/banner/p3.jpg'
+// import b4 from '../../../Images/banner/p4.jpg'
 import b5 from '../../../Images/banner/p7.jpg'
 import b6 from '../../../Images/banner/p8.jpg'
 import b7 from '../../../Images/banner/p9.jpg'
@@ -40,21 +40,22 @@ export class Banner extends Component {
                                     </quote>
                                 </div>
                             </div>
+                            
                         </div>
 
-                <div className="bg-light">
-                    <br/>
+                <div className="">
 
-                    <div className="mt-big wd-banner-setup  container-fluid">
-                                <div className="text-center my-4">
-                                    <span className="size-big">WORK DIARY <i className="far fa-question-circle"/> </span>
+                    <div className=" wd-banner-setup  container-fluid">
+                        <br/>
+                                <div className="text-center mt-4">
+                                    <span className="size-big">Work Diary</span>
                                     <br/>
-                                    <span>what more is it about?</span>
+                                    <span className="text-gray">what more is it about?</span>
                                 </div>
-                        <div className=" mx-auto shadow-sm wd-main-banner row">
-                            <div className="col-md-5 animate-left">
+                        <div className=" mx-auto border-bottom wd-main-banner row">
+                            <div className="col-md-5 animate-left mb-5">
                                 <div className="d-none d-md-block text-center">
-                                    <img src={logo} alt="..." width="300px" height="150px" />
+                                    <img src={logo} alt="..." width="200px" height="100px" />
                                 </div>
                                 <div className="text-center px-md-4 ">
                                     <span className=" text-gray">
@@ -65,7 +66,7 @@ export class Banner extends Component {
                                     <h6 className="text-gray">store work achievements, store everything {':)'}</h6>
                                 </div>
                             </div>
-                            <div class="col-md-7 animate-right">
+                            {/* <div class="col-md-7 animate-right">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         
@@ -110,13 +111,17 @@ export class Banner extends Component {
                                             
                                         />
                                     </div>
-                                </div>
-                            </div>
+                                </div> 
+                            </div>   */}
                         </div>
 
-                            <hr/>
 
-                        <div class="row text-center">
+                        <div class="row text-center bg-light">
+                            <div className="text-center my-4">
+                                <span className="fs-4">Looking For Portfolio Ideas <br/> and Designs For your Next Project</span>
+                                <br/>
+                                <span className="fs-6 text-gray">Portfolio Examples <i className="fa fa-gift"/></span>
+                            </div>
                             <div class="col-sm-4 text-center shadow-sm">
                                 <Image
                                     width="100%"

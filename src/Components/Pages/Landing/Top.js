@@ -4,7 +4,6 @@ import { UserOutlined} from '@ant-design/icons';
 
 
 // images imports 
-import w1 from '../../../Images/banner/w3.png'
 import w2 from '../../../Images/banner/w1.png'
 import w3 from '../../../Images/banner/w2.png'
 import w4 from '../../../Images/banner/w4.png'
@@ -81,32 +80,32 @@ export class Top extends Component {
                             <div className="wd-top-side d-none d-md-block col-md-7 border-bottom " >
                                 <div class="w-100 h-75">
                                     <br/>
-                                    <div className="text-center mt-5 size-big p-5">
-                                        <span className="fw-light text-gray">FEW STEPS TO </span>
+                                    <div className="w-75 mx-auto text-center mt-5 size-big p-5">
+                                        <span className="fw-light text-gray">EASY STEPS TO </span>
                                         <br/>
-                                        <span className="text-light fst-italic ">GETTING YOUR WORK OR YOUR BUSINESS RECOGNIZED</span>
+                                        <span className="text-light fst-italic fs-4 ">GETTING YOUR WORK OR YOUR BUSINESS RECOGNIZED</span>
                                     </div>
                                 </div>
                                 <div className="h-25 top-100 bottom-0 bg-dark w-100 animate-opacity text-center">
                                     <br/>
                                     <div className="container-fluid">
                                         <div style={{marginTop:'-100px'}} className="row">
-                                            <div className="col-3">
+                                            <div className="col-3 wd-top-image">
                                                 <Popover content={content[0]} title="Create An Account">
                                                     <img src={side} alt="..." width="100%" height="100px"/>
                                                 </Popover>
                                             </div>
-                                            <div className="col-3">
+                                            <div className="col-3 wd-top-image">
                                                 <Popover content={content[1]} title="Set Up Dashboard">
                                                     <img src={w8} alt="..." width="100%" height="100px"/>
                                                 </Popover>
                                             </div>
-                                            <div className="col-3">
+                                            <div className="col-3 wd-top-image">
                                                 <Popover content={content[2]} title="Upload Portfolios">
                                                     <img src={w6} alt="..." width="100%" height="100px"/>
                                                 </Popover>
                                             </div>
-                                            <div className="col-3">
+                                            <div className="col-3 wd-top-image">
                                                 <Popover content={content[3]} title="Get Hired">
                                                     <img src={w7} alt="..." width="100%" height="100px"/>
                                                 </Popover>
@@ -126,34 +125,28 @@ export class Top extends Component {
                                 </div>
                             </div>
 
-                            <div className="w-75 text-center mx-auto d-none d-md-block" >
-                                 <div class=" animate-opacity">
-                                        <img src={w1} alt="my work dashboard" width="100%" height="100%" />
-                                        <span className="text-silver fst-italic"><i className="fas fa-stream"/> my work dashboard</span>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <br/>
-                            <div className="text-center mt-5" >
-                                <span className=" size-big text-silver">Work Lifecycle <span className="text-primary fas fa-briefcase"/></span>
+                            <div className="text-center mt-5 border-bottom" >
+                                <span className=" size-big text-silver">Work, Business Lifecycle <br/> <span className="text-primary fas fa-briefcase"/></span>
                                 <div className="container-fluid">
-                                    <div class="row">
-                                        <div class="col-md-3">
+                                    <div class="row my-4">
+                                        <div class="col-sm-3 wd-top-image">
                                             <img src={w2} alt="let your portfolio dashboard get you your preferred job" width="100%" />
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-sm-3 wd-top-image">
                                             <img src={w3} alt="let your portfolio dashboard get you your preferred job" width="100%" />
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-sm-3 wd-top-image">
                                             <img src={w4} alt="let your portfolio dashboard get you your preferred job" width="100%" />
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-sm-3 wd-top-image">
                                             <img src={w5} alt="let your portfolio dashboard get you your preferred job" width="100%" />
                                         </div>
                                     </div>
 
-                                    <div class="w-100 animate-right bg-gradient-blue h-25 wd-top-side-bottom text-center px-5 text-white">
+                                    {/* <div class="w-100 animate-right bg-gradient-blue h-25 wd-top-side-bottom text-center px-5 text-white">
                                         <br/>
                                         <quote class="">Upload your works and let your dashboard get you your preferred job, <br/> let your work speak for you.</quote>
                                         <div>
@@ -165,7 +158,7 @@ export class Top extends Component {
                                                 <span>~ Oprah Winfrey</span>
                                             </quote>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                 </div>
