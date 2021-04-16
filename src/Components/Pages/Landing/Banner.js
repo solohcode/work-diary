@@ -66,53 +66,9 @@ export class Banner extends Component {
                                     <h6 className="text-gray">store work achievements, store everything {':)'}</h6>
                                 </div>
                             </div>
-                            {/* <div class="col-md-7 animate-right">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        
-                                        <Image
-                                            width={'100%'}
-                                            height="95%"
-                                            src={b1}
-                                            preview={{
-                                                src:b1,
-                                            }}
-                                            />
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <Image
-                                            width="100%"
-                                            height="95%"
-                                            src={b2}
-                                            preview={{
-                                                src:b2,
-                                            }}
-                                            
-                                        />
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <Image
-                                            width="100%"
-                                            height="95%"
-                                            src={b3}
-                                            preview={{
-                                                src:b3,
-                                            }}
-                                        />
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <Image
-                                            width="100%"
-                                            height="95%"
-                                            src={b4}
-                                            preview={{
-                                                src:b4,
-                                            }}
-                                            
-                                        />
-                                    </div>
-                                </div> 
-                            </div>   */}
+                            <div class="col-md-7 animate-right">
+                               
+                            </div>  
                         </div>
 
 
